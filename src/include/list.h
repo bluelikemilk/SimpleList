@@ -24,11 +24,14 @@ class List {
     vector<vector<string>> mainList;
     vector<string> list;
     string name; // name is global variable
+    int currentUserIndex;
+
     // put prototype here to let compiler know this function exists
     void print_menu();
     void print_list();
     void add_item();
     void delete_item();
-    void find_userList(); 
+    bool find_userList();
+    void save_list(); 
 };
 

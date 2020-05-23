@@ -21,6 +21,7 @@ class List {
     }
     // vector allows you to dynamically store a collection of data with same type
     // list is a vector of string
+    vector<vector<string>> mainList;
     vector<string> list;
     string name; // name is global variable
     // put prototype here to let compiler know this function exists
@@ -28,5 +29,6 @@ class List {
     void print_list();
     void add_item();
     void delete_item();
+    void find_userList(); 
 };
 

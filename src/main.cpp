@@ -18,9 +18,5 @@ int main(int arg_count, char *args[]) {
         cout << "Username not supplied.. exiting the program" << endl;
     }
 
-    
-
-    
-
     return 0;
 }
